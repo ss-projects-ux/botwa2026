@@ -13,7 +13,7 @@ let botActive = true;
 
 // isi chat ID yang diizinkan (WAJIB kamu isi)
 const SAFE_CHATS = [
-    "628596287xxx9@c.us",   // admin
+    "6285133969908@c.us",   // admin
 ];
 
 // ======================
