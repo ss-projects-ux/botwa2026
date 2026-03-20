@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nazedev/hitori.git"
+    "url": "git+https://github.com/ss-projects-ux/botwa2026.git"
   },
   "type": "commonjs",
   "main": "start.js",
