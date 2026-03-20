@@ -1,0 +1,3 @@
+{
+  "ignore": ["nocturnal", "node_modules", "database", "logs"]
+}
