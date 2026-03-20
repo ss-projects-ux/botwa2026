@@ -1,14 +1,15 @@
-// server.mjs
-import { createServer } from 'node:http';
+# Docker has specific installation instructions for each operating system.
+# Please refer to the official documentation at https://docker.com/get-started/
 
-const server = createServer((req, res) => {
-  res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello World!\n');
-});
+# Pull the Node.js Docker image:
+docker pull node:24-alpine
 
-// starts a simple http server locally on port 3000
-server.listen(3000, '127.0.0.1', () => {
-  console.log('Listening on 127.0.0.1:3000');
-});
+# Create a Node.js container and start a Shell session:
+docker run -it --rm --entrypoint sh node:24-alpine
 
-// run with `node server.mjs`
+# Verify the Node.js version:
+node -v # Should print "v24.14.0".
+
+# Verify npm version:
+npm -v # Should print "11.9.0".
+
